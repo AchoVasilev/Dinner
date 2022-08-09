@@ -1,0 +1,12 @@
+/home/acho/Programing/Dinner/Dinner.Contracts/bin/Debug/net6.0/Dinner.Contracts.deps.json
+/home/acho/Programing/Dinner/Dinner.Contracts/bin/Debug/net6.0/Dinner.Contracts.dll
+/home/acho/Programing/Dinner/Dinner.Contracts/bin/Debug/net6.0/ref/Dinner.Contracts.dll
+/home/acho/Programing/Dinner/Dinner.Contracts/bin/Debug/net6.0/Dinner.Contracts.pdb
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.csproj.AssemblyReference.cache
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.AssemblyInfoInputs.cache
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.AssemblyInfo.cs
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.csproj.CoreCompileInputs.cache
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.dll
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/ref/Dinner.Contracts.dll
+/home/acho/Programing/Dinner/Dinner.Contracts/obj/Debug/net6.0/Dinner.Contracts.pdb

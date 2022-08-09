@@ -1,0 +1,12 @@
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/Dinner.Application.deps.json
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/ref/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/Dinner.Application.pdb
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.csproj.AssemblyReference.cache
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.AssemblyInfoInputs.cache
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.AssemblyInfo.cs
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.csproj.CoreCompileInputs.cache
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/ref/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.pdb
