@@ -1,6 +1,10 @@
 namespace Dinner.Application.Extensions;
 
-public class ServiceCollectionExtensions
+using Microsoft.Extensions.DependencyInjection;
+using Services.Authentication;
+
+public static class ServiceCollectionExtensions
 {
-    
+    public static IServiceCollection RegisterApplicationServices(this IServiceCollection services)
+        => services.AddTransient<IAuthenticationService, AuthenticationService>();
 }

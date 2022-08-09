@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WmJ2hNKVYpOUXK3CbDDalz4tikLSbw/Y8K6DrucBElt/vJaMmaq+n3k9KPQhvgOfi8OJkUUkrHJyncwQ7IUh2A==",
+  "dgSpecHash": "3vB+uX2SGInR8cRQvCaplIWERdHIJAn3nNDh0TCaEeBId821VuXtAcCWy6pvLITsHZe7WWx+/MZVy1cfYWa2yg==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Infrastructure/Dinner.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

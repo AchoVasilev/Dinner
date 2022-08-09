@@ -10,3 +10,6 @@
 /home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.dll
 /home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/ref/Dinner.Application.dll
 /home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.pdb
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/Dinner.Domain.dll
+/home/acho/Programing/Dinner/Dinner.Application/bin/Debug/net6.0/Dinner.Domain.pdb
+/home/acho/Programing/Dinner/Dinner.Application/obj/Debug/net6.0/Dinner.Application.csproj.CopyComplete

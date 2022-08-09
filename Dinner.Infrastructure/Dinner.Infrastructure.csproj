@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Dinner.Application\Dinner.Application.csproj" />
-    <ProjectReference Include="..\Dinner.Api\Dinner.Api.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

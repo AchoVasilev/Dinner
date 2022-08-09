@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zcn3mV0s7g9glOimRHBbdwxgkZmk2umhWVKsUmuZBUdvV2wz0qMoLwF3K67IBE4Mu6cWoNDkw87ghTqvamwH3w==",
+  "dgSpecHash": "4LlCnIok05j85prae2QxlCTNV7CNc6vvJ4nZ1Ntwp4wKv6XjcmNUC6pLlbYEpaI0DjBz0/ewfYcxtUKJuOF/9w==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Api/Dinner.Api.csproj",
   "expectedPackageFiles": [
     "/home/acho/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

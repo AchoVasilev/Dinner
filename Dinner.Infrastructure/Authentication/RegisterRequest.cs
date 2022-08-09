@@ -1,3 +1,7 @@
 namespace Dinner.Infrastructure.Authentication;
 
-public record RegisterRequest();
+public record RegisterRequest(
+    string FirstName,
+    string LastName,
+    string Email,
+    string Password);

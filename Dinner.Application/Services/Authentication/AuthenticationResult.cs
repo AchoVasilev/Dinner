@@ -1,3 +1,8 @@
 namespace Dinner.Application.Services.Authentication;
 
-public record AuhtenticationResult();
+public record AuthenticationResult(
+    Guid Id,
+    string FirstName,
+    string LastName,
+    string Email,
+    string Token);

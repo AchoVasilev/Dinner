@@ -25,3 +25,11 @@
 /home/acho/Programing/Dinner/Dinner.Api/obj/Debug/net6.0/ref/Dinner.Api.dll
 /home/acho/Programing/Dinner/Dinner.Api/obj/Debug/net6.0/Dinner.Api.pdb
 /home/acho/Programing/Dinner/Dinner.Api/obj/Debug/net6.0/Dinner.Api.genruntimeconfig.cache
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Contracts.dll
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Domain.dll
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Infrastructure.dll
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Contracts.pdb
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Application.pdb
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Infrastructure.pdb
+/home/acho/Programing/Dinner/Dinner.Api/bin/Debug/net6.0/Dinner.Domain.pdb

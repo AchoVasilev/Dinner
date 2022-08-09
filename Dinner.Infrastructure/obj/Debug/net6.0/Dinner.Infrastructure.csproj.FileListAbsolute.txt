@@ -9,3 +9,9 @@
 /home/acho/Programing/Dinner/Dinner.Infrastructure/obj/Debug/net6.0/Dinner.Infrastructure.dll
 /home/acho/Programing/Dinner/Dinner.Infrastructure/obj/Debug/net6.0/ref/Dinner.Infrastructure.dll
 /home/acho/Programing/Dinner/Dinner.Infrastructure/obj/Debug/net6.0/Dinner.Infrastructure.pdb
+/home/acho/Programing/Dinner/Dinner.Infrastructure/bin/Debug/net6.0/Dinner.Application.dll
+/home/acho/Programing/Dinner/Dinner.Infrastructure/bin/Debug/net6.0/Dinner.Domain.dll
+/home/acho/Programing/Dinner/Dinner.Infrastructure/bin/Debug/net6.0/Dinner.Application.pdb
+/home/acho/Programing/Dinner/Dinner.Infrastructure/bin/Debug/net6.0/Dinner.Domain.pdb
+/home/acho/Programing/Dinner/Dinner.Infrastructure/obj/Debug/net6.0/Dinner.Infrastructure.csproj.AssemblyReference.cache
+/home/acho/Programing/Dinner/Dinner.Infrastructure/obj/Debug/net6.0/Dinner.Infrastructure.csproj.CopyComplete
