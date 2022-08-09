@@ -1,10 +1,12 @@
 namespace Dinner.Infrastructure.Extensions;
 
 using Application.Common.Interfaces.Authentication;
+using Application.Common.Interfaces.Persistence;
 using Application.Common.Services;
 using Authentication;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Persistence;
 using Services;
 
 public static class ServiceCollectionExtensions
@@ -13,5 +15,6 @@ public static class ServiceCollectionExtensions
         IConfiguration configuration)
         => services.Configure<JwtSettings>(configuration.GetSection(nameof(JwtSettings)))
             .AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>()
-            .AddSingleton<IDateTimeProvider, DateTimeProvider>();
+            .AddSingleton<IDateTimeProvider, DateTimeProvider>()
+            .AddScoped<IUserRepository, UserRepository>();
 }

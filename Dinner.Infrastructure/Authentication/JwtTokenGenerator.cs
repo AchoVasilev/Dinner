@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using Application.Common.Interfaces.Authentication;
 using Application.Common.Services;
+using Domain.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
@@ -20,7 +21,7 @@ public class JwtTokenGenerator : IJwtTokenGenerator
         this.dateTimeProvider = dateTimeProvider;
     }
 
-    public string GenerateToken(Guid userId, string firstName, string lastName)
+    public string GenerateToken(User user)
     {
         var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(Encoding.UTF8.GetBytes(this.options.Secret)),
@@ -28,9 +29,9 @@ public class JwtTokenGenerator : IJwtTokenGenerator
         
         var claims = new Claim[]
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-            new Claim(JwtRegisteredClaimNames.GivenName, firstName),
-            new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
