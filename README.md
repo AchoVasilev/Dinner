@@ -1,2 +1,2 @@
 # Dinner
-This is a project using Clean Architecture and Domain-Driven Design
+This is a simple project using Clean Architecture and Domain-Driven Design
