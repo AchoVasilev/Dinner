@@ -1,7 +1,7 @@
 namespace Dinner.Api.Controllers;
 
 using Application.Services.Authentication;
-using Infrastructure.Authentication;
+using Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]

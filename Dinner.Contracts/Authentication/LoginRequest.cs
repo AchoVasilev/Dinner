@@ -1,4 +1,4 @@
-namespace Dinner.Infrastructure.Authentication;
+namespace Dinner.Contracts.Authentication;
 
 public record LoginRequest(
     string Email,
