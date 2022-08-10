@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "anDVKBFyJWy6Ya2nHH6pJpHi1k7iJDeFWFDncbSOz48gtTzOg3Yrm/cGQDCu1pnOs7H1YR/aJ/9B8TuyIpLlHQ==",
+  "dgSpecHash": "DxRAf2ouFv4uImoRf3WA+e1zogbn+mEP0MNrxDShkxlvyEhmMGKsFa/MplNIODT5Ds/+9NnPOUcJoHbgAu0Y/Q==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Domain/Dinner.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

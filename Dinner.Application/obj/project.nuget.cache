@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "W0csg9afEYszlkltW8gE2hGrRy3uwMyd3ygLU99bpF4qLQ7ygTxi7RZ/vkAoig+1oZjhb8VV7Md+iTJWvNkajw==",
+  "dgSpecHash": "POS7XUDLBEG/J5bL5afWb3aJCwGq4rYTVMQNzelXoWIF/SxNCNBg3kofUsFsaKUfZrMF9+od6RzWOOP1v2L6Mw==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Application/Dinner.Application.csproj",
   "expectedPackageFiles": [
-    "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/fluentresults/3.10.0/fluentresults.3.10.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

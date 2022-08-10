@@ -1,4 +1,4 @@
-namespace Dinner.Api.Middlewares;
+namespace Dinner.Api.Common.Middlewares;
 
 using System.Net;
 using System.Text.Json;

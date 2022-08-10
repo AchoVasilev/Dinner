@@ -3,6 +3,8 @@ namespace Dinner.Application.Services.Authentication;
 using Common.Interfaces.Authentication;
 using Common.Interfaces.Persistence;
 using Domain.Entities;
+using Domain.Folder.Errors;
+using ErrorOr;
 
 public class AuthenticationService : IAuthenticationService
 {
@@ -15,17 +17,17 @@ public class AuthenticationService : IAuthenticationService
         this.userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         var user = this.userRepository.GetUserByEmail(email);
         if (user is null)
         {
-            throw new Exception("User with this email doesn't exist.");
+            return Errors.Authentication.InvalidCredentials;
         }
 
         if (user.Password != password)
         {
-            throw new Exception("Invalid password");
+            return Errors.Authentication.InvalidCredentials;
         }
 
         var token = this.jwtTokenGenerator.GenerateToken(user);
@@ -35,11 +37,11 @@ public class AuthenticationService : IAuthenticationService
             token);
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         if (this.userRepository.GetUserByEmail(email) != null)
         {
-            throw new Exception("User with this email already exists");
+            return Errors.User.DuplicateEmail;
         }
 
         var user = new User()

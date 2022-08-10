@@ -1,4 +1,4 @@
-namespace Dinner.Api.Filters;
+namespace Dinner.Api.Common.Filters;
 
 using System.Net;
 using Microsoft.AspNetCore.Mvc;

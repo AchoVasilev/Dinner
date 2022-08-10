@@ -1,6 +1,7 @@
-namespace Dinner.Api.Errors;
+namespace Dinner.Api.Common.Errors;
 
 using System.Diagnostics;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -10,10 +11,11 @@ public class DinnerProblemDetailsFactory : ProblemDetailsFactory
 {
     private readonly ApiBehaviorOptions options;
 
-    public DinnerProblemDetailsFactory(IOptions<ApiBehaviorOptions> options) 
+    public DinnerProblemDetailsFactory(IOptions<ApiBehaviorOptions> options)
         => this.options = options?.Value ?? throw new ArgumentNullException(nameof(options));
 
-    public override ProblemDetails CreateProblemDetails(HttpContext httpContext, int? statusCode = null, string? title = null,
+    public override ProblemDetails CreateProblemDetails(HttpContext httpContext, int? statusCode = null,
+        string? title = null,
         string? type = null, string? detail = null, string? instance = null)
     {
         statusCode ??= 500;
@@ -30,7 +32,7 @@ public class DinnerProblemDetailsFactory : ProblemDetailsFactory
 
         return problemDetails;
     }
-    
+
     public override ValidationProblemDetails CreateValidationProblemDetails(HttpContext httpContext,
         ModelStateDictionary modelStateDictionary, int? statusCode = null, string? title = null, string? type = null,
         string? detail = null, string? instance = null)
@@ -54,12 +56,12 @@ public class DinnerProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Title = title;
         }
-        
+
         this.ApplyProblemDetailsDefaults(httpContext, problemDetails, statusCode.Value);
 
         return problemDetails;
     }
-    
+
     private void ApplyProblemDetailsDefaults(HttpContext httpContext, ProblemDetails problemDetails, int statusCode)
     {
         problemDetails.Status ??= statusCode;
@@ -75,7 +77,10 @@ public class DinnerProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Extensions["traceId"] = traceId;
         }
-        
-        problemDetails.Extensions.Add("customProperty", "customValue");
+
+        if (httpContext?.Items["errors"] is List<Error> errors)
+        {
+            problemDetails.Extensions.Add("errorCodes", errors.Select(x => x.Code));
+        }
     }
 }

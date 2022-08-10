@@ -1,6 +1,4 @@
-using Dinner.Api.Errors;
-using Dinner.Api.Filters;
-using Dinner.Api.Middlewares;
+using Dinner.Api.Common.Errors;
 using Dinner.Application.Extensions;
 using Dinner.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

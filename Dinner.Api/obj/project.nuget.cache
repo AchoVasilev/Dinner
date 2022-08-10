@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "hpmu5ss9SjcS8O+h+nBaG/YMeExzWVjxLu++Zce5OMoLIh+9qFMlv6PpynCpBPf+JVyCjvGebFIXP+dQOrgF/g==",
+  "dgSpecHash": "v3nYV9aC6/3PpNQ6fsBkVNMxRMm+Z96NnTEKZJRGtW0lzPHSjOHw6K7xhn1C8T0PyWh57ox8JtTcNHTyPchyGA==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Api/Dinner.Api.csproj",
   "expectedPackageFiles": [
+    "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/fluentresults/3.10.0/fluentresults.3.10.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.options.configurationextensions/6.0.0/microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
