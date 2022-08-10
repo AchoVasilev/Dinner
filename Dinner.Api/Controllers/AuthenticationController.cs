@@ -1,36 +1,43 @@
 namespace Dinner.Api.Controllers;
 
-using Application.Common.Errors;
-using Application.Services.Authentication;
+using Application.Authentication.Commands.Register;
+using Application.Authentication.Queries.Login;
+using Application.Common.Authentication;
 using Contracts.Authentication;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService authenticationService;
+    private readonly IMediator mediator;
 
-    public AuthenticationController(IAuthenticationService authenticationService)
-        => this.authenticationService = authenticationService;
+
+    public AuthenticationController(IMediator mediator) 
+        => this.mediator = mediator;
 
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var result = this.authenticationService.Register(
+        var command = new RegisterCommand(
             request.FirstName,
             request.LastName,
             request.Email,
             request.Password);
 
-        return result.Match(
+        var authResult = await this.mediator.Send(command);
+
+        return authResult.Match(
             result => this.Ok(MapAuthResult(result)),
             errors => this.Problem(errors));
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
+    public async Task<IActionResult> Login(LoginRequest request)
     {
-        var result = this.authenticationService.Login(request.Email, request.Password);
+        var query = new LoginQuery(request.Email, request.Password);
+
+        var result = await this.mediator.Send(query);
 
         return result.Match(
             result => this.Ok(MapAuthResult(result)),

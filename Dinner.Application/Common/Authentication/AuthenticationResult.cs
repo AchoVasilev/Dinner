@@ -1,4 +1,4 @@
-namespace Dinner.Application.Services.Authentication;
+namespace Dinner.Application.Common.Authentication;
 
 using Domain.Entities;
 

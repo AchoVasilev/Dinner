@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "POS7XUDLBEG/J5bL5afWb3aJCwGq4rYTVMQNzelXoWIF/SxNCNBg3kofUsFsaKUfZrMF9+od6RzWOOP1v2L6Mw==",
+  "dgSpecHash": "NRHXN+3MTKzZHkk34QsYsPkTsTr3Iu+/oAxvmgBj6oECTZGPOMbGMZfwb5Sh17dFLVhhGeFpRgllmx76/9uh3g==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Application/Dinner.Application.csproj",
   "expectedPackageFiles": [
     "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512",
     "/home/acho/.nuget/packages/fluentresults/3.10.0/fluentresults.3.10.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
   ],

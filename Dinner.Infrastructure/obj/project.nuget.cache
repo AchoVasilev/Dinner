@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bGvpC23P8imG/S/yjlEqLFd7dOdYvsVg3Vs6vBAAV5Q1B3w89YVBBpUiD/vps4NB5zSvTLD5tBzvKyXk3Uf+xw==",
+  "dgSpecHash": "C9T0YKfHEVCkjiISTU+Wlab9WTGBw+eVZnhiwzBo6aaiHA8Nyne3uE0RYtlUKX+0XCbP40c6V6arlxoHTKZTSQ==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Infrastructure/Dinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512",
     "/home/acho/.nuget/packages/fluentresults/3.10.0/fluentresults.3.10.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/acho/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
