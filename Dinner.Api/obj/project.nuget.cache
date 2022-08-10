@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kbEjKimM0O92UNfwY4ckBC1+I3AWhRIrBq13c83lK0d+g8oFzV/AWks9od2ItK3HpxGPd+d2HcG0u7bGwuqnMw==",
+  "dgSpecHash": "hR82GvzoFbnrbxeuJiKnxg4JNZJQYGMAPOQ1+doiW1/4rQhmBv0lSywn4gxSq+7gD0DdJdF7RozLaepSUs+1RQ==",
   "success": true,
   "projectFilePath": "/home/acho/Programing/Dinner/Dinner.Api/Dinner.Api.csproj",
   "expectedPackageFiles": [
     "/home/acho/.nuget/packages/erroror/0.2.0/erroror.0.2.0.nupkg.sha512",
     "/home/acho/.nuget/packages/fluentresults/3.10.0/fluentresults.3.10.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/mapster/7.3.0/mapster.7.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/mapster.core/1.2.0/mapster.core.1.2.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/mapster.dependencyinjection/1.0.0/mapster.dependencyinjection.1.0.0.nupkg.sha512",
     "/home/acho/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
     "/home/acho/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/acho/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
@@ -22,14 +25,24 @@
     "/home/acho/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.22.0/microsoft.identitymodel.jsonwebtokens.6.22.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.identitymodel.logging/6.22.0/microsoft.identitymodel.logging.6.22.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.identitymodel.tokens/6.22.0/microsoft.identitymodel.tokens.6.22.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/acho/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/acho/.nuget/packages/system.identitymodel.tokens.jwt/6.22.0/system.identitymodel.tokens.jwt.6.22.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/home/acho/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/acho/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/home/acho/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/acho/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

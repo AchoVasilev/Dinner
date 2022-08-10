@@ -1,4 +1,5 @@
 using Dinner.Api.Common.Errors;
+using Dinner.Api.Common.Mapping;
 using Dinner.Application.Extensions;
 using Dinner.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.RegisterApplicationServices()
     .AddInfrastructure(builder.Configuration)
+    .AddMappings()
     .AddControllers();
 
 builder.Services.AddSingleton<ProblemDetailsFactory, DinnerProblemDetailsFactory>();
